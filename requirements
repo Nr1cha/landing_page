@@ -3,7 +3,7 @@
 <!-- nav with id=nav-bar -->
     <!-- 3 elements in nav under class nav-link
         .nav-link  -->
-embedded product video id=video
+<!-- embedded product video id=video -->
 form element id=form
     input field id=email
         #email placeholder text
