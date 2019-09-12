@@ -1,9 +1,9 @@
-header id=header
-    image in header id=header-img 
-nav with id=nav-bar
-    3 elements in nav under class nav-link
-        .nav-link 
-embedded product video id=video
+<!-- header id=header -->
+    <!-- image in header id=header-img  -->
+<!-- nav with id=nav-bar -->
+    <!-- 3 elements in nav under class nav-link
+        .nav-link  -->
+<!-- embedded product video id=video -->
 form element id=form
     input field id=email
         #email placeholder text
