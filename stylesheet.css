@@ -1,0 +1,20 @@
+
+
+head {
+
+}
+
+body {
+    background-color: black;
+
+}
+
+.flexboxpics {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    flex-flow: row; */
+    border: 15px green solid;
+    justify-content: space-around;
+    /* align-items: center; */
+}
