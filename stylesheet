@@ -8,6 +8,7 @@ body {
 
 }
 
-.flexboxpics {
+.flex-container {
+    display: flex;
 
 }
