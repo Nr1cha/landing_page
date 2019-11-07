@@ -3,37 +3,21 @@
 head {
 
 }
-<<<<<<< HEAD
-
-body {
-    background-color: black;
-
-}
-
-.flexboxpics {
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap;
-    flex-flow: row; */
-    border: 15px green solid;
-    justify-content: space-around;
-    /* align-items: center; */
-=======
 #nav-bar {
     display: block;
     justify-content: center;
 }
 
 body {
-background-color: black;
+background-color: rgb(24, 24, 24);
 }
 .iframe-container {
     /* display: flex; */
     margin: auto;
     align-items: center;
     position: relative;
-    width: 50%;
-    height: 1300px;
+    width: 75%;
+    height: 700px;
 
 }
 .iframe-container > iframe {
@@ -53,5 +37,4 @@ background-color: black;
     /* align-content: center; */
     width: 45%;
     padding: 25px;
->>>>>>> 6a4eec0cd99bc12e6544d41bc3ee4e4aedf640aa
 }
