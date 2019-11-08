@@ -9,15 +9,15 @@ head {
 }
 
 body {
-background-color: black;
+background-color: #222222;
 }
 .iframe-container {
     /* display: flex; */
     margin: auto;
     align-items: center;
     position: relative;
-    width: 50%;
-    height: 1300px;
+    width: 85%;
+    height: 700px;
 
 }
 .iframe-container > iframe {
