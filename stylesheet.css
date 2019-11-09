@@ -1,3 +1,4 @@
+/* NAVBAR SECTION */
 #nav-bar {
     display: block;
     margin: 5.0%;
@@ -8,7 +9,7 @@
 body {
     background-color: #222222;
 }
-
+/* VIDEO SECTION */
 .iframe-container {
     /* display: flex; */
     margin: auto;
@@ -24,10 +25,7 @@ body {
     height: 100%;
 }
 
-/* .iframe-container > p {
-    text-align: right;
-} */
-
+/* FLEX PICTURE SECTION */
 .flex-container {
     align-items: center;
     display: flex;
@@ -49,13 +47,18 @@ body {
     }
 }
 
-input [type=email]{
-    background-color: blueviolet;
-    color: aqua;
-}
-input [type=submit]{
-    background-color: blueviolet;
-}
+/* field section */
 input {
+    width: 30%;
     color: rgb(0, 0, 0);
+}
+
+input[type=email] {
+    background-color: rgb(187, 187, 187);
+
+}
+input[placeholder=email] {
+    =
+    background-color: rgb(187, 187, 187);
+
 }
