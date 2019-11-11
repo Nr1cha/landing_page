@@ -1,13 +1,29 @@
 /* NAVBAR SECTION */
 #nav-bar {
+    /* display: inline; */
+    margin-left: 5%;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-link {
+    list-style-type: none;
+    float: left;
     display: block;
-    margin: 5.0%;
-    text-align: center;
-    padding: 1.0%;
+
+}
+.nav-link > a {
+    display: block;
+    padding: 8px;
+    background-color: gray;
 }
 
 body {
-    background-color: #222222;
+    background-color: #535353;
+}
+p {
+    /* display: block; */
+    text-align: right;
+    margin-right: 5%;
 }
 
 /* VIDEO STUFF */
@@ -32,7 +48,7 @@ body {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    flex-flow: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -42,10 +58,11 @@ body {
     padding: 10px;
 }
 
-@media (min-width: 800px) {
-    #nav-bar {
-        font-size: 90px;
-        color: chartreuse;
+@media (min-width: 1000px) {
+    p {
+        font-size: 30px;
+        font-style: italic;
+        color: rgb(202, 204, 200);
     }
 }
 
