@@ -11,38 +11,38 @@
     display: block;
 
 }
-.nav-link > a {
+.nav-link>a {
+    font-size: 20px;
     display: block;
     padding: 8px;
     background-color: gray;
 }
-
 body {
     background-color: #535353;
 }
 p {
+    font-size: 20px;
     color: white;
     text-align: right;
     margin-right: 5%;
 }
-
 /* VIDEO STUFF */
 .iframe-container {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
     height: 0;
     margin: auto;
     width: 90%;
 }
-.iframe-container > iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.iframe-container>iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-
 /* FLEX PICTURE SECTION */
 .flex-container {
     align-items: center;
@@ -51,47 +51,34 @@ p {
     flex-direction: row;
     justify-content: space-around;
 }
-
 .flex-container>img {
     /* align-content: center; */
     width: 45%;
     padding: 10px;
 }
-
-/* @media (min-width: 1000px) {
-    p {
-        font-size: 30px;
+@media (min-width: 1000px) {
+    #video-cap {
+        font-size: 40px;
         font-style: italic;
-        color: rgb(202, 204, 200);
+        color: rgb(209, 209, 209);
     }
-} */
-
+}
 /* field section */
 input {
-    width: 30%;
+    width: 20%;
     color: rgb(0, 0, 0);
-}
-
-input[type=email] {
-    background-color: rgb(187, 187, 187);
-
-}
-input[placeholder=email] {
-    background-color: rgb(187, 187, 187);
-
 }
 .form-class p {
     /* width: 30%; */
-
-    padding: 0;
-    display: block;
-    text-align: left;
-    margin: 0,0;
     margin-left: 2.5%;
+    padding: 0;
+    /* display: block; */
+    text-align: left;
+    /* margin: 0, 0; */
 }
-.form-class > input {
+.form-class>input {
     padding: 0;
     margin-left: 2.5%;
     padding: 4px;
-    justify-self: flex-end;
+    /* justify-self: flex-end; */
 }
